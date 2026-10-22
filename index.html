@@ -83,10 +83,10 @@ footer{padding:28px 0;text-align:center;color:var(--mut);font-size:14px;border-t
 <div><label for="s">I’m interested in</label><select id="s"><option>Workflow Automation</option><option>Custom Power Apps</option><option>Power BI Dashboards</option><option>Process Optimization Audit</option><option>Not sure yet</option></select></div>
 <div><label for="m">What would you like to automate?</label><textarea id="m" rows="4"></textarea></div>
 <button class="btn" type="submit">Send by email</button><a class="btn" style="background:#1877f2;color:#fff;text-align:center" href="https://www.facebook.com/profile.php?id=61593552857751" target="_blank" rel="noopener">Message me on Facebook</a>
-<small style="color:var(--mut)">This opens your email app with the message ready to send to jhoannafelizae.automation@gmail.com.</small>
+<small style="color:var(--mut)">This opens your email app with the message ready to send to Jhoannacreativeco@gmail.com.</small>
 </form></div></section>
 
-<footer><div class="w">Jhoanna Felizae · Business Automation Specialist<br><a href="mailto:jhoannafelizae.automation@gmail.com">jhoannafelizae.automation@gmail.com</a> · <a href="https://www.facebook.com/profile.php?id=61593552857751" target="_blank" rel="noopener">Facebook</a></div></footer>
+<footer><div class="w">Jhoanna Felizae · Business Automation Specialist<br><a href="mailto:Jhoannacreativeco@gmail.com">Jhoannacreativeco@gmail.com</a> · <a href="https://www.facebook.com/profile.php?id=61593552857751" target="_blank" rel="noopener">Facebook</a></div></footer>
 <dialog id="dlg"></dialog>
 
 <script>
@@ -111,7 +111,7 @@ $("dlg").style.maxWidth="540px";$("dlg").innerHTML=`<button class="x" onclick="d
 $("dlg").onclick=e=>{if(e.target===$("dlg"))$("dlg").close()};
 $("tech").innerHTML=["Excel VBA","Power Query","Power BI","Power Apps","Power Automate","SharePoint","Microsoft 365","SQL","API integrations","Outlook"].map(t=>`<i>${t}</i>`).join("");
 $("f").onsubmit=e=>{e.preventDefault();const b=`Hi Jhoanna,\n\nName: ${$("n").value}\nEmail: ${$("e").value}\nInterested in: ${$("s").value}\n\n${$("m").value}`;
-location.href=`mailto:jhoannafelizae.automation@gmail.com?subject=${encodeURIComponent("Automation inquiry: "+$("s").value)}&body=${encodeURIComponent(b)}`};
+location.href=`mailto:Jhoannacreativeco@gmail.com?subject=${encodeURIComponent("Automation inquiry: "+$("s").value)}&body=${encodeURIComponent(b)}`};
 $("pf").onclick=e=>{$("dlg").style.maxWidth="900px";$("dlg").innerHTML=`<button class="x" onclick="dlg.close()">Close</button><img src="${e.target.src}" alt="Business Automation Portfolio" style="width:100%;margin-top:10px;border-radius:10px">`;$("dlg").showModal()};
 draw();
 </script></body></html>
